@@ -5,7 +5,7 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 28px;
     color: #696A86;
@@ -80,7 +80,7 @@ body {
     border-radius: 10px;
     color: #fff;
     font-size: 18px;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .promo {
@@ -114,4 +114,74 @@ body {
 
 .promo_content .button-promo {
     margin-top: 30px;
+}
+
+.service_list {
+    margin-bottom: 100px;
+}
+
+.service_list_wrapper {
+    text-align: center;
+}
+
+.service_list_top {
+    margin: 100px 180px 140px 180px;
+}
+
+.service_list_top h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.service_list_bottom {
+    display: flex;
+}
+
+.service_list_bottom_item {
+    flex: 1 1;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center 25px;
+}
+
+.service_list_bottom_item:nth-child(1) {
+    background-image: url(../images/service_image_design.png);
+}
+
+.service_list_bottom_item:nth-child(2) {
+    background-image: url(../images/service_image_doctor.png);
+}
+
+.service_list_bottom_item:nth-child(3) {
+    background-image: url(../images/service_image_group.png);
+}
+
+.service_list_bottom_item:nth-child(4) {
+    background-image: url(../images/service_image_blog.png);
+}
+
+.service_list_bottom_item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.service_list_bottom_item:hover {
+    border: 1px solid #c4c4c4;
+    border-bottom: 7px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.service_list_bottom_item a {
+    text-decoration: none;
+    color: #626780;
+}
+
+.service_list_bottom_item h3 {
+    margin-top: 90px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.service_list_bottom_item p {
+    font-size: 16px;
+    line-height: normal;
 }
