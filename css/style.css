@@ -185,3 +185,22 @@ body {
     font-size: 16px;
     line-height: normal;
 }
+
+.support_wrapper {
+    background-image: url(../images/support_bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+}
+
+.support_content {
+    width: 45%;
+}
+
+.support_content h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
