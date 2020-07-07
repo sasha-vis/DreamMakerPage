@@ -165,13 +165,7 @@ body {
     margin-right: 25px;
 }
 
-/* .service_list_bottom_item:hover {
-    border: 1px solid #c4c4c4;
-    border-bottom: 7px solid #c4c4c4;
-    border-radius: 5px;
-} */
-
-.service_list_bottom_item:hover ::before {
+.service_list_bottom_item:hover::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -183,6 +177,7 @@ body {
     border: 1px solid #c4c4c4;
     border-bottom: 7px solid #c4c4c4;
     border-radius: 5px;
+    z-index: -1;
 }
 
 .service_list_bottom_item a {
