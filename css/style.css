@@ -214,3 +214,20 @@ body {
     font-size: 26px;
     margin-bottom: 30px;
 }
+
+.video .video_title h2 {
+    color: #402B2B;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.video .video_frame {
+    margin-top: 70px;
+    margin-bottom: 260px;
+}
+
+.video .video_frame iframe {
+    width: 100vw;
+    height: 100vh;
+}
