@@ -1,0 +1,351 @@
+@media (max-width: 1024px) {
+
+    .header .nav li {
+        margin: 0 10px;
+    }
+
+    .nav button {
+        padding: 15px 40px;
+    }
+    
+    .promo {
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+
+    .promo .promo_content h2 {
+        font-size: 30px;
+    }
+
+    .service_list {
+        margin-bottom: 0;
+    }
+
+    .support .support_wrapper {
+        background-size: 500px;
+    }
+
+    .questions_and_answers_block .qaa_top_left,
+    .questions_and_answers_block .qaa_top_right {
+        width: 450px;
+    }
+
+    .qaa_top_right {
+        background-size: 100% auto;
+
+        padding-top: 495px;
+    }
+
+    .section_features {
+        background-size: 60% auto;
+    }
+
+    .section_features .features_list_item {
+        width: 400px;
+    }
+
+    .section_features .features_list_item .features_list_item_wrapper {
+        padding-bottom: 0;
+    }
+
+    .section_features .features_list_item .features_list_item_wrapper h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .section_features .features_list_item .features_list_item_wrapper button {
+        padding-left: 60px;
+        padding-right: 60px;
+        bottom: -35px;
+    }
+
+    .section_features .features_reviews_item .features_reviews_item_list ul li .reviews_user .reviews_avatar {
+        margin-right: 0;
+        width: 100px;
+    }
+
+    .footer_bottom .footer_bottom_item:nth-child(2) {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header_wrapper {
+        padding-bottom: 0;
+    }
+
+    .header_logo img {
+        width: 50px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: fixed;
+        height: 100%;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+
+        background-color: rgba(255, 255, 255, .8);
+        padding-left: 20px;
+        padding-right: 20px;
+
+        box-shadow: 0 0 40px #999;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 20px;
+    }
+
+    .promo {
+        height: 400px;
+    }
+
+    .promo_content {
+        padding-top: 0;
+    }
+
+    .promo .promo_content h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .service_list_top {
+        margin: 0 0 50px 0;
+    }
+
+    .service_list_bottom {
+        display: block;
+    }
+
+    .service_list_bottom_item {
+        width: 60%;
+
+        margin-right: auto !important;
+
+        margin-left: auto;
+    }
+
+    .support_content {
+        width: 100%;
+    }
+
+    .support .support_wrapper {
+        background-size: 300px;
+        background-position: bottom 50px right 100px;
+
+        min-height: 300px;
+        align-items: flex-start;
+    }
+
+    .questions_and_answers_block .qaa_top {
+        flex-direction: column;
+    }
+
+    .questions_and_answers_block .qaa_top_left,
+    .questions_and_answers_block .qaa_top_right {
+        width: 100%;
+    }
+
+    .questions_and_answers_block .qaa_top_right {
+        background-image: none;
+        padding-top: 0px;
+    }
+
+    .qaa_bottom {
+        margin-top: 0;
+    }
+
+    .qaa_bottom button {
+        width: 300px;
+        height: 60px;
+    }
+
+    .section_features {
+        background-image: none;
+        margin-bottom: 0;
+    }
+
+    .section_features .features_title {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .section_features .features_list .container {
+        display: block;
+    }
+
+    .section_features .features_list_item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .section_features .features_reviews .features_reviews_item {
+        width: 100%;
+    }
+
+    .section_features .features_reviews_item .features_reviews_item_list {
+        width: 60%;
+        margin-right: auto;
+    }
+
+    .reviews_info {
+        margin-left: 50px;
+    }
+
+    .sign_in_block {
+        margin-top: 50px;
+    }
+
+    .sign_in_block h2 {
+        margin-right: 0;
+    }
+
+    .footer_bottom .footer_bottom_item:nth-child(2) {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 425px) {
+    .promo {
+        background-size: cover;
+        padding-top: 80px;
+    }
+
+    .promo .promo_content {
+        width: 100%;
+    }
+
+    .promo .promo_content h2 {
+        line-height: 32px;
+    }
+
+    .service_list {
+        padding-top: 50px;
+    }
+
+    .support .support_wrapper {
+        background-image: none;
+        min-height: auto;
+    }
+
+    .qaa_top_left h2 {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 50px;
+    }
+
+    .section_features .features_list_item .features_list_item_wrapper button {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section_features .features_reviews {
+        margin-top: 100px;
+    }
+
+    .section_features .features_reviews_item .features_reviews_item_list {
+        padding-top: 0px;
+        padding-right: 40px;
+    }
+
+    .section_features .features_reviews_item .features_reviews_item_list .features_reviews_item_list_arrow_right {
+        display: none;
+    }
+
+    .reviews_info {
+        margin-left: 20px;
+    }
+
+    .sign_in_block h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .sign_in_block .sign_in {
+        margin-top: 0;
+        padding: 30px;
+    }
+
+    .footer {
+        background-size: auto;
+    }
+
+    .footer_top,
+    .footer_bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_top {
+        padding-top: 100px;
+    }
+
+    .footer_bottom_item {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .burger {
+        margin-right: 30px;
+    }
+
+    .header_logo img {
+        margin-right: 15px;
+    }
+
+    .video .video_title h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .video .video_frame iframe {
+        height: 50vh;
+    }
+
+    .qaa_top_left h2 {
+        margin-top: 0;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section_features .features_list_item .features_list_item_wrapper {
+        padding: 25px;
+    }
+
+    .section_features .features_list_item button {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .section_features .features_reviews_item .features_reviews_item_list {
+        padding: 20px;
+        width: calc(95% - 40px);
+    }
+}
+
+@media (max-width: 425px) {
+    .header_logo a {
+        font-size: 18px;
+    }
+}
+
